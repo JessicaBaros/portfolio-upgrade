@@ -1,0 +1,84 @@
+body {
+    background-color: #0E2440;
+    color:white;
+    height:auto;
+    margin: auto;
+    width:960px;
+  }
+  
+  header {
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1, h3, footer, time {
+    font-family: 'Comfortaa', monospace;
+  }
+  
+  h2, p, li, figcaption {
+    font-family: 'IBM Plex Serif', serif;
+  }
+  
+  h2, h3 {
+    color: #C2EEFE;
+  }
+  
+  figcaption {
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    padding:5px;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bio-name-date {
+    width: 649px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skilllogo {
+    max-height: 180px;
+  }
+  
+  .text {
+    background-color: #545353;
+    height: auto;
+  
+    padding:20px;
+  }
+  .goal-header {
+    margin-top: 0px;
+  }
+  #bio {
+    display: flex;
+  }
+  
+  #profile-photo {
+    width: 280px;
+    height: 280px;
+    margin-right: 31px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+  }
+  
+  #name {
+    margin-top: 0 ;
+  }
+  
+  #skills {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
